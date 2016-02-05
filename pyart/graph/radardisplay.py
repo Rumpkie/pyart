@@ -1224,7 +1224,7 @@ class RadarDisplay(object):
         return data, x, y, z
 
     def _get_x_z(self, field, sweep, edges, filter_transitions):
-        """ Retrieve and return x and y coordinate in km. """
+        """ Retrieve and return x and z coordinate in km. """
         x, y, z = self._get_x_y_z(field, sweep, edges,
                                   filter_transitions=filter_transitions)
         return x, z
