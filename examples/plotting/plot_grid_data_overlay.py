@@ -48,7 +48,7 @@ lon = -98.5
 
 # panel 1, basemap, radar reflectivity and NARR overlay
 ax1 = fig.add_axes(map_panel_axes)
-display.plot_basemap()
+#display.plot_basemap()
 display.plot_grid('REF', level=level, vmin=vmin, vmax=vmax, title_flag=False,
                   colorbar_flag=False)
 
